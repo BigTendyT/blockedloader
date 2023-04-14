@@ -27,9 +27,9 @@ function loadWeb(){
       src="${url2}" 
       width="${window.innerWidth}" 
       height="${window.innerHeight}" 
-      allow="autoplay; fullscreen" 
+      allow="autoplay; fullscreen; pointer-lock" 
       frameborder="0"
-      sandbox="allow-scripts allow-same-origin"
+      sandbox="allow-scripts allow-same-origin allow-pointer-lock"
     ></iframe>
   `);
 }

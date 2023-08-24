@@ -5,3 +5,23 @@ html, body {
 canvas {
   display: block;
 }
+
+.center-content {
+  text-align: center; /* Center the content horizontally */
+  margin-top: 10px; /* Add some top margin for spacing */
+}
+
+.header {
+  display: inline-block;
+  margin-right: 2px;
+}
+
+/* Define a CSS class to hide the element */
+.hidden {
+  display: none;
+}
+
+input {
+  max-width: 60%;
+}
+
